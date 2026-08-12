@@ -141,14 +141,14 @@ const CONTENT = {
         ]
       },
       {
-        name: "Tipi — our temple + tea room",
+        name: "Tipi ",
         points: [
-          "Traditional-style tipi with a fireplace inside. This is our temple and tea room. There is no separate temple in our camp.",
+          "Traditional-style tipi with a fireplace inside.",
           "A meditation and sacred space, honoring the Indigenous people whose ancestral lands we gather on.",
           "Ours is exactly the model in this assembly video. Watch it before the playa:",
           "https://youtu.be/8qe3FMbJ_8o",
           "Second reference video: https://youtu.be/znGR5AXY3AM",
-          "TerrYaki is tending the tipi as a sacred space: prayer, Theravada chants with Nina, and sound baths with Crispin."
+          
         ]
       }
     ]
