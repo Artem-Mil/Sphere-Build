@@ -37,7 +37,7 @@ const CONTENT = {
       { name: "Charging station tent", detail: "10 × 20 ft. Bike and device charging. Plus a couple of easy-ups." },
       { name: "Shade structure", detail: "Sail-style shade over shift pods, tents, and yurts. Frame is 1½ in steel pipe, not wood. Pipe gets hot. Wear gloves." },
       { name: "Communal showers", detail: "275-gallon tank system. Arrives Friday morning. Target: operational by Friday." },
-      { name: "Tipi", detail: "Traditional-style tipi with a fireplace inside. This is our temple and tea room: a meditation and sacred space to honor the Indigenous people whose ancestral lands we gather on. There is no separate temple." },
+      { name: "Tipi", detail: "Traditional-style tipi with a fireplace inside. A meditation and sacred space to honor the Indigenous people whose ancestral lands we gather on. There is no separate temple." },
       { name: "Playa art installation", detail: "Three giant inflatables out on the open playa: two droids and Mother of Playa, with their own generator, power, and lighting." }
     ]
   },
