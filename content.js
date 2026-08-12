@@ -18,7 +18,7 @@ const CONTENT = {
     campName: "Sphere Vision",
     title: "Build Guide 2026",
     subtitle: "Black Rock City · Burning Man 2026",
-    lastUpdated: "August 12, 2026",
+    lastUpdated: "August 12, 2026 · 7 PM",
     heroLine: "One trailer. Three tents. Three structures. Three giants on the playa. We build it together.",
     pinned: [
       { label: "Yellow trailer lock code", value: "2065" },
@@ -37,41 +37,44 @@ const CONTENT = {
       { name: "Charging station tent", detail: "10 × 20 ft. Bike and device charging. Plus a couple of easy-ups." },
       { name: "Shade structure", detail: "Sail-style shade over shift pods, tents, and yurts. Frame is 1½ in steel pipe, not wood. Pipe gets hot. Wear gloves." },
       { name: "Communal showers", detail: "275-gallon tank system. Arrives Friday morning. Target: operational by Friday." },
-      { name: "Tipi", detail: "Traditional-style tipi with a fireplace inside. A meditation and sacred space to honor the Indigenous people whose ancestral lands we gather on." },
-      { name: "Temple", detail: "Small camp temple. Not a complicated build. Saturday, when there is time." },
+      { name: "Tipi (our temple + tea room)", detail: "Traditional-style tipi with a fireplace inside. This is our temple and tea room: a meditation and sacred space to honor the Indigenous people whose ancestral lands we gather on. There is no separate temple." },
       { name: "Playa art installation", detail: "Three giant inflatables out on the open playa: two droids and Mother of Playa, with their own generator, power, and lighting." }
     ]
   },
 
   schedule: {
-    heading: "Build schedule",
-    note: "Drey posts the detailed hour-by-hour schedule once the camp plan for structures and shift pods is final. This is the working plan.",
+    heading: "Arrivals + build schedule",
+    note: "Arrivals as they stand now. Drey posts the detailed hour-by-hour build schedule once the camp plan for structures and shift pods is final.",
     days: [
       {
         day: "WED",
         date: "Aug 26",
-        title: "Advance prep",
+        title: "Arrivals: Ryan, Martinique, Drey",
         items: [
-          "Drey and Ryan travel in and prep as much as possible for the team.",
-          "Trailer is loaded in LA: sound, lights, generator, rigging, and all tools."
+          "Ryan, Martinique, and Drey arrive.",
+          "Advance prep: get the camp ready for the team.",
+          "Trailer is loaded in LA: sound, lights, generator, rigging, and all tools.",
+          "35-ft container/trailer delivery to camp (afternoon/evening)."
         ]
       },
       {
         day: "THU",
         date: "Aug 27",
-        title: "Arrivals + trailer delivery",
+        title: "Arrivals + main tent",
         items: [
-          "35-ft container/trailer is delivered to camp in the afternoon or evening.",
-          "Crew arrivals in Reno: Rashid 1:20 pm (airport), Artem 1:30 pm, Leon ~5 pm, Rustem 7:20 pm (Amtrak), Andrey 8:00 pm (Grand Sierra).",
+          "Lion, Andrey, Artem, Rustem, and Rashid arrive.",
+          "Put up the main tent.",
+          "This group: get a small generator. Talk to Cameron or Dmitriy before you travel.",
           "Marty is already on playa (since Mon Aug 24) and can prep the electrical-box wood on Thursday."
         ]
       },
       {
         day: "FRI",
         date: "Aug 28",
-        title: "Unload, inventory, main tent",
+        title: "Arrivals: TerrYaki, Crispin, Nina, Leo, Dmitriy — unload + main tent",
         items: [
-          "8:00 am — Dmitriy arrives at camp with the crew. Shower system arrives in the morning (Andrey brings it).",
+          "TerrYaki, Crispin, Nina, Leo, and Dmitriy arrive.",
+          "8:00 am — Dmitriy arrives with the crew. Shower system arrives in the morning (Andrey brings it).",
           "Morning — unload the 40-ft trailer completely. Quick inventory during unload. Separate everything into piles: kitchen, carpet, yurts and shift pods, rigging (pipe, bull picks, tools). Count the pipe. Pull out and separate all tents.",
           "After lunch (~3 pm) — build the main tent. Then install sound, bar, and lounge inside. Goal: main tent done Friday.",
           "After the main tent is up — build your own shift pods and yurts.",
@@ -87,7 +90,7 @@ const CONTENT = {
           "Playa crew — 6 people go with Drey to install the 3 inflatables and connect power to the generator. Plan 4–6 hours on the playa.",
           "Camp crew — finish the white gathering tent, kitchen area, and a couple of easy-ups for the bike charging station.",
           "Get the shade structure up.",
-          "Build the temple if there is time."
+          "Set up the tipi (our temple + tea room) when there is time."
         ]
       }
     ]
@@ -138,20 +141,14 @@ const CONTENT = {
         ]
       },
       {
-        name: "Tipi",
+        name: "Tipi — our temple + tea room",
         points: [
-          "Traditional-style tipi with a fireplace inside. Meditation and sacred space.",
+          "Traditional-style tipi with a fireplace inside. This is our temple and tea room. There is no separate temple in our camp.",
+          "A meditation and sacred space, honoring the Indigenous people whose ancestral lands we gather on.",
           "Ours is exactly the model in this assembly video. Watch it before the playa:",
           "https://youtu.be/8qe3FMbJ_8o",
           "Second reference video: https://youtu.be/znGR5AXY3AM",
           "TerrYaki is tending the tipi as a sacred space: prayer, Theravada chants with Nina, and sound baths with Crispin."
-        ]
-      },
-      {
-        name: "Temple",
-        points: [
-          "Small camp temple. Not a complicated build.",
-          "Saturday, when there is time."
         ]
       }
     ]
@@ -340,27 +337,31 @@ const CONTENT = {
   crew: {
     heading: "Crew + contacts",
     leads: [
-      { name: "Drey Sphere", role: "Build lead. Camp plan, schedule, playa install. Call with any question." },
+      { name: "Drey Sphere", role: "Camp lead and art installation build lead. Camp plan, schedule, playa install. Call with any question." },
       { name: "Dmitriy BM", role: "Co-organizer. Tents, tipi, showers, logistics." },
       { name: "Ryan Lewis", role: "Lead crew. Go-to for build questions and general schedule." },
       { name: "Leo Lesh", role: "Lead crew. Go-to for build questions and general schedule." }
     ],
     members: [
-      { name: "Artem M", role: "Build crew. 3rd-time burner. Coordinating for Rashid and Rustem. Has an SUV available during the build." },
-      { name: "Rashid", role: "Build crew. First burn. Driving in with Artem and Rustem; possible spare seat." },
-      { name: "Rustem Umerov", role: "Build crew. First burn." },
-      { name: "Andrey", role: "Build crew. Brings the shower system Friday morning." },
-      { name: "Leon", role: "Build crew." },
       { name: "Martinique", role: "Build crew." },
-      { name: "Cameron Thomson", role: "Head electrician." },
+      { name: "Ryan (LA)", role: "Comes in with Drey for advance prep." },
+      { name: "Artem M", role: "Build crew. 3rd-time burner, coordinating for Rashid and Rustem. Has an SUV for the build." },
+      { name: "Rashid", role: "Build crew. First burn." },
+      { name: "Rustem Umerov", role: "Build crew. First burn." },
+      { name: "Andrey", role: "Build crew. Brings the shower system." },
+      { name: "Leon / Lion", role: "Build crew." },
+      { name: "Leo Lesh", role: "Build crew." },
+      { name: "Dmitriy BM", role: "Co-organizer. Tents, tipi, showers, logistics." },
+      { name: "TerrYaki", role: "Tipi keeper. Sacred space, prayer, sound baths." },
+      { name: "Nina Mai", role: "Traditional Theravada chants in the tipi." },
+      { name: "Crispin", role: "Sound baths in the tipi." },
+      { name: "Cameron Thomson", role: "Head electrician. Point of contact for the small generator." },
       { name: "Tomas Bollo", role: "Sound system tuning. On the DJ roster." },
       { name: "Eva (EB)", role: "Camp cook. Kitchen inventory Friday morning, then feeds the crew all event. Take care of her." },
-      { name: "TerrYaki", role: "Tipi keeper. Sacred space, prayer, sound baths." },
-      { name: "Nina Mai", role: "Buddhist nun. Traditional Theravada chants in the tipi." },
-      { name: "Marty", role: "Experienced builder, on playa from Mon Aug 24. Helps Friday pm + Saturday playa build, droids, and the electrical box wood. Camping at Gothic Folly (8:45 & D), later Global (6:15 & F)." },
-      { name: "Ryan (LA)", role: "Comes in Wednesday with Drey for advance prep." }
+      { name: "Marty", role: "Experienced builder, on playa from Mon Aug 24. Helps Friday pm + Saturday playa build, droids, and the electrical box wood. Camping at Gothic Folly (8:45 & D), later Global (6:15 & F)." }
     ],
     notes: [
+      "Thursday crew (Lion, Andrey, Artem, Rustem, Rashid): you get a small generator. Talk to Cameron or Dmitriy before you travel.",
       "Group language is English. Some crew only speaks English.",
       "12 SAPs (Setup Access Passes) this year, so some crew comes later. We still need one more SAP. Ask your previous camps or build crews if they have a spare for Sphere Vision.",
       "Artem is arranging truck insurance details with Drey and Rashid."
