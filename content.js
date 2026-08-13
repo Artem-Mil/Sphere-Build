@@ -37,7 +37,7 @@ const CONTENT = {
       { name: "Charging station tent", detail: "10 × 20 ft. Bike and device charging. Plus a couple of easy-ups." },
       { name: "Shade structure", detail: "Sail-style shade over shift pods, tents, and yurts. Frame is 1½ in steel pipe, not wood. Pipe gets hot. Wear gloves." },
       { name: "Communal showers", detail: "275-gallon tank system. Arrives Friday morning. Target: operational by Friday." },
-      { name: "Tipi", detail: "Traditional-style tipi with a fireplace inside. A meditation and sacred space to honor the Indigenous people whose ancestral lands we gather on. There is no separate temple." },
+      { name: "Tipi (our temple + tea room)", detail: "Traditional-style tipi with a fireplace inside. This is our temple and tea room: a meditation and sacred space to honor the Indigenous people whose ancestral lands we gather on. There is no separate temple." },
       { name: "Playa art installation", detail: "Three giant inflatables out on the open playa: two droids and Mother of Playa, with their own generator, power, and lighting." }
     ]
   },
@@ -124,11 +124,26 @@ const CONTENT = {
         ]
       },
       {
+        name: "White gathering tent — 26 × 16 ft (PE Budget, B model)",
+        points: [
+          "Full assembly manual (PDF): open WPIC-26x16-PE-tent-instructions.pdf from the camp files, or at https://sphere-build-gray.vercel.app/WPIC-26x16-PE-tent-instructions.pdf",
+          "This is the frame-and-connector party tent: 22 cross poles, 10 leg poles, 10 rafter poles, plus lettered connectors (A corner, B side, C/D roof and peak).",
+          "Step 1 — lay out all poles and connectors on the ground per the manual drawing before you join anything. This saves the most time.",
+          "Step 2 — build the whole roof frame flat on the ground. Push buttons must fully click into each connector. Add the #6 reinforcement poles into the H top connectors.",
+          "Step 3 — pull the roof tarp (P) over the frame while it is still low. Do not force the corners. Do this in low wind.",
+          "Step 4 — bolt each leg pole (#2) to a foot plate (G) with a 6×45 mm bolt. Lift one long side, stand the legs, then secure the roof with the long bungees in a zigzag, and hook the tarp leg covers on.",
+          "Step 5 — lift the other side (one person per leg). Stake the foot plates with U-stakes as you go so it cannot shift.",
+          "Steps 6–7 — hang the window walls and end panels with bungees. Stake the ground overhang with L-stakes.",
+          "Step 8 — guy lines from the corners, out at 45°, anchored with the spiral stakes.",
+          "PLAYA NOTE: the included stakes are for lawns and are not enough for Black Rock City. Anchor the legs with our own rebar/augers and ratchet straps, same as the other tents. Manual says heavy-duty anchors are the user's responsibility.",
+          "This is a temporary shelter and NOT flame retardant. No open flames near it. In high wind, take the side walls off first to cut wind load. Follow the camp weather protocol."
+        ]
+      },
+      {
         name: "Other tents",
         points: [
           "Inventory: two 20 × 10 ft tents, one 25 × 16 ft, plus one extra ordered as backup.",
           "Kitchen tent: brand new, easy install, must be anchored, needs sides.",
-          "White gathering tent (26 × 16 ft): food, seating, common area.",
           "10 × 20 ft tent: bike charging station."
         ]
       },
@@ -141,14 +156,14 @@ const CONTENT = {
         ]
       },
       {
-        name: "Tipi ",
+        name: "Tipi — our temple + tea room",
         points: [
-          "Traditional-style tipi with a fireplace inside.",
+          "Traditional-style tipi with a fireplace inside. This is our temple and tea room. There is no separate temple in our camp.",
           "A meditation and sacred space, honoring the Indigenous people whose ancestral lands we gather on.",
           "Ours is exactly the model in this assembly video. Watch it before the playa:",
           "https://youtu.be/8qe3FMbJ_8o",
           "Second reference video: https://youtu.be/znGR5AXY3AM",
-          
+          "TerrYaki is tending the tipi as a sacred space: prayer, Theravada chants with Nina, and sound baths with Crispin."
         ]
       }
     ]
